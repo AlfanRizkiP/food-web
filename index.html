@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="food.jpg" width="50">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Food</a>
+             </div>
+          </div>
+        </div>
+    </nav>
+
+      <div class="container1">
+        <div class="meal-shop">
+            <div class="meal-search">
+                <h2 class="title">Find Food For You Ingradients</h2>
+                <blockquote>Real Food doesn't have ingredients, real food is Ingradients.<br>
+                    <cite>- Jamie Oliver</cite>
+                </blockquote>
+                <div class="meal-search-box">
+                    <input type="text" class="search-control" placeholder="Search Food" id="search-input">
+                    <button type="submit" class="search-btn btn" id="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>            
+                </div>
+            </div>
+
+            <br>
+
+            <div class="meal-result">
+                <h2 class="title">Your Search Result:</h2>
+                <div id="meal">
+                    <!-- <div class="meal-item">
+                    <div class="meal-img">
+                            <img src="Product1.jpg" alt="backpack">
+                        </div>
+                        <div class="meal-name">
+                            <h3>Backpack</h3>
+                            <a href="#" class="detail-btn">Click Detail</a>
+                        </div>
+                    </div> -->
+                    <br>
+                </div>
+            </div>
+
+
+            <div class="meal-details">
+                <button type="button" class="btn detail-close-btn" id="detail-close-btn">
+                    <i class="fa fa-times"></i>
+                </button>
+
+                <div class="meal-details-content">
+                    <!-- <h2 class="detail-title">meal Name Here</h2>
+                    <p class="detail-price">Price</p>
+                    <p class="detail-category">Category Name</p>
+                    <div class="detail-instruct">
+                        <h3>Description:</h3>
+                        <p>our perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+                    </div>
+                    <div class="detail-meal-img">
+                        <img src="Product1.jpg" alt="">
+                    </div> -->
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
